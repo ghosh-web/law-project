@@ -1,0 +1,412 @@
+
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.section_padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+:root{
+    --coper-gold:#A17549;
+    --gold-white:#F2CC9B;
+    --midnight-blue:#223555;
+}
+.topbar p{
+    color: var(--coper-gold);
+    
+}
+.btn-gradient {
+    background: linear-gradient(to right,#A17549,#F2CC9B);
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 16px;
+    
+  }
+  .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color:#A17549;
+  }
+   .banner{
+    background-image: url(../images/Rectangle\ 3.png);
+    height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 140px 0;
+  }
+  .banner_text {
+    max-width: 593px;
+  }
+  .banner_text h1{
+    font-size: 60px;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .banner_text span{
+    font-size: 50px;
+    font-family: "IBM Plex Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+  }
+  .banner_text p{
+    font-family: "IBM Plex Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  }
+   .banner_btn{
+    background: linear-gradient(to right,#A17549,#F2CC9B);
+   }
+   
+  
+  .button {
+    background: linear-gradient(to right, #a17549, #f2cc9b);
+  }
+  .left-img img {
+    max-height: 500px;
+  }
+  .our-promise-section{
+    background-position: center;
+    background-size: cover;
+    
+  }
+  .our-promise-section .title {
+    color: #1c2b45;
+  } 
+  
+  .our-promise-section .quote {
+    color: var(--midnight-blue);
+    font-family: "IBM Plex Serif", serif;
+    font-size: 16px;
+  }
+   .quote-line::before {
+    content: "";
+    
+    width: 50px;
+    height: 2px;
+    background-color: #D2B48C;
+    margin-right: 10px;
+  }
+  .quote-line {
+    display: flex; 
+   align-items: center;
+   color: #8B5E3C; 
+ }
+   
+.practise{
+  padding: 64px 0;
+}
+     .practise h3{
+      font-size: 50px;
+      font-family: "IBM Plex Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+     }
+.practise_btn{
+  color: white;
+}
+
+
+.every_case{
+  color: #A17549;
+  font-size: 20px;
+  font-family: "IBM Plex Serif", serif;
+font-weight: 400;
+font-style: normal;
+
+}
+.pic1{
+  background-image: url(../images/Group\ 49\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic2{
+  background-image: url(../images/Group\ 50.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic3{
+  background-image: url(../images/Group\ 51.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic4{
+  background-image: url(../images/Group\ 52.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic5{
+  background-image: url(../images/Group\ 53.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic6{
+  background-image: url(../images/Group\ 54.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic7{
+  background-image: url(../images/Group\ 55.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic8{
+  background-image: url(../images/Group\ 56.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic9{
+  background-image: url(../images/Group\ 57.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.pic10{
+  background-image: url(../images/Group\ 58.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  border-radius: 10px;
+}
+.lawyer h2{
+  font-size: 50px;
+  font-family: "IBM Plex Serif", serif;
+font-weight: 500;
+font-style: normal;
+}
+.lawyer_text{
+  font-size: 20px;
+  font-family: "IBM Plex Serif", serif;
+font-weight: 400;
+font-style: normal;
+}
+.line::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 2px;
+}
+
+.team-section {
+  padding: 64px 0;
+  background-color: #fff;
+}
+
+.team-section h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.team-section .heading {
+  font-weight: 400;
+
+
+  color: var(--coper-gold);
+ 
+}
+.team-member img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  text-align: center;
+}
+.team-member h5 {
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 5px;
+}
+
+.team-member small {
+  color: #7b7b7b;
+}
+
+.social-icons i {
+  font-size: 16px;
+  margin: 7px;
+  color: #030303;
+  
+}
+.team-member:hover{
+  border: 2px solid #8B5E3C;
+ transform: translateY(-2%);
+ border-radius: 8px;
+}
+.input{
+  padding: 10px 30px;
+  border: 2px solid #A17549;
+}
+
+.contact-section {
+  background: url(../images/Rectangle\ 34.png);
+  background-size: cover;
+  padding-top: 64px ;
+}
+
+.contact-form input,
+.contact-form textarea {
+
+  border: 1px solid var(--midnight-blue);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form
+ {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--primary);
+}
+
+.contact-form button {
+  background-color: var(--coper-gold);
+  color: #ffffff;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 5px;
+  
+}
+
+.contact-form button:hover {
+  background-color: var(--midnight-blue);
+}
+
+.contact-img {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+
+.footer {
+  background-color: var(--midnight-blue);
+  font-family: "IBM Plex Serif", serif;
+  color: white;
+}
+
+.footer h5 {
+  color: #A17549;
+}
+
+.footer a:hover {
+  color: #ffc107;
+  
+}
+@media (max-width:320px) {
+  .banner_text{
+    text-align: center;
+
+  }
+  .banner_text h1{
+    font-size: 40px;
+  }
+  .banner_text span{
+    font-size: 25px;
+  }
+  .clients{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .clients h6{
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .clients p{
+    font-size: 12px;
+  }
+  .custom-input{
+    padding: 5px;
+    font-size: 8px;
+  }
+  .c-f{
+    margin:-1px;
+  }
+} 
